@@ -10,8 +10,6 @@ import LoginPopup from "@/components/loginPopup";
 import { axiosInstance } from "@/utils/api";
 const BoardProducts = () => {
   const router = useRouter();
-  console.log("api", process.env.NEXT_PUBLIC_API_URL);
-
   const [dataProducts, setDataProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [proEndow, setProEndow] = useState([]);
